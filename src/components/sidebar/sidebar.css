@@ -3,12 +3,12 @@
 	height: calc(100vh - 50px);
 	background-color: rgb(40, 199, 223);
 	position: sticky;
-	top: 60px;
+	top: 50px;
 }
 
 .sidebarWrapper{
 	padding: 20px;
-	color: white;
+	color: rgb(29, 34, 126);
 }
 
 .sidebarMenu{
@@ -18,7 +18,7 @@
 .sidebarTitle{
 	font-size: 22px;
 	font-weight: bold;
-	color:rgb(52, 60, 95)
+	color:rgb(28, 47, 50)
 }
 
 .sidebarList{
@@ -36,7 +36,7 @@
 }
 
 .sidebarListItem.active, .sidebarListItem:hover{
-	background-color: rgb(52, 60, 95);
+	background-color: rgb(45, 159, 223);
 }
 
 .sidebarIcon{

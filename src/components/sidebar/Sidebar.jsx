@@ -2,6 +2,15 @@ import './sidebar.css'
 import LineStyleIcon from '@mui/icons-material/LineStyle';
 import TimelineIcon from '@mui/icons-material/Timeline';
 import TrendingUpIcon from '@mui/icons-material/TrendingUp';
+import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
+import StorefrontOutlinedIcon from '@mui/icons-material/StorefrontOutlined';
+import PaidOutlinedIcon from '@mui/icons-material/PaidOutlined';
+import AssessmentOutlinedIcon from '@mui/icons-material/AssessmentOutlined';
+import MailOutlinedIcon from '@mui/icons-material/MailOutlined';
+import QuestionAnswerOutlinedIcon from '@mui/icons-material/QuestionAnswerOutlined';
+import ChatBubbleOutlineOutlinedIcon from '@mui/icons-material/ChatBubbleOutlineOutlined';
+import WorkOutlineOutlinedIcon from '@mui/icons-material/WorkOutlineOutlined';
+import AccountTreeOutlinedIcon from '@mui/icons-material/AccountTreeOutlined';
 
 const Sidebar = () => {
   return (
@@ -28,16 +37,20 @@ const Sidebar = () => {
 				<h3 className='sidebarTitle'>Quick Menu</h3>
 				<ul className='sidebarList'>
 					<li className='sidebarListItem active'>
-						<LineStyleIcon className='sidebarIcon' />
-						Home
+						<PersonOutlineOutlinedIcon className='sidebarIcon' />
+						User
 					</li>
 					<li className='sidebarListItem'>
-						<TimelineIcon className='sidebarIcon' />
-						Analytics
+						<StorefrontOutlinedIcon className='sidebarIcon' />
+						Products
 					</li>
 					<li className='sidebarListItem'>
-						<TrendingUpIcon className='sidebarIcon' />
-						Sales
+						<PaidOutlinedIcon className='sidebarIcon' />
+						Transactions
+					</li>
+					<li className='sidebarListItem'>
+						<AssessmentOutlinedIcon className='sidebarIcon' />
+						Reports
 					</li>
 				</ul>
 			</div>
@@ -45,16 +58,16 @@ const Sidebar = () => {
 				<h3 className='sidebarTitle'>Notification</h3>
 				<ul className='sidebarList'>
 					<li className='sidebarListItem active'>
-						<LineStyleIcon className='sidebarIcon' />
-						Home
+						<MailOutlinedIcon className='sidebarIcon' />
+						Mail
 					</li>
 					<li className='sidebarListItem'>
-						<TimelineIcon className='sidebarIcon' />
-						Analytics
+						<QuestionAnswerOutlinedIcon className='sidebarIcon' />
+						Feedback
 					</li>
 					<li className='sidebarListItem'>
-						<TrendingUpIcon className='sidebarIcon' />
-						Sales
+						<ChatBubbleOutlineOutlinedIcon className='sidebarIcon' />
+						Messages
 					</li>
 				</ul>
 			</div>
@@ -62,16 +75,16 @@ const Sidebar = () => {
 				<h3 className='sidebarTitle'>Staff</h3>
 				<ul className='sidebarList'>
 					<li className='sidebarListItem active'>
-						<LineStyleIcon className='sidebarIcon' />
-						Home
+						<WorkOutlineOutlinedIcon className='sidebarIcon' />
+						Manage
 					</li>
 					<li className='sidebarListItem'>
 						<TimelineIcon className='sidebarIcon' />
 						Analytics
 					</li>
 					<li className='sidebarListItem'>
-						<TrendingUpIcon className='sidebarIcon' />
-						Sales
+						<AccountTreeOutlinedIcon className='sidebarIcon' />
+						Reports
 					</li>
 				</ul>
 			</div>
