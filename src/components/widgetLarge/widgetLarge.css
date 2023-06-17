@@ -4,3 +4,53 @@
 	box-shadow: 5px 5px 15px 5px #000000;
 	padding: 20px;
 }
+
+.widgetLargeTitle {
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.widgetLargeTable {
+	width: 100%;
+	border-spacing: 20px;
+}
+
+.widgetLargeTh {
+	text-align: left;
+	padding: 5px;
+}
+
+.widgetLargeUser {
+	display: flex;
+	align-items: center;
+}
+
+
+.widgetLargeImg{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-right: 10px;
+}
+
+.widgetLargeButton {
+	border: none;
+	border-radius: 10px;
+	padding: 5px;
+	color: white;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.widgetLargeButton.Approved {
+	background-color: green;
+}
+
+.widgetLargeButton.Pending {
+	background-color: blue;
+}
+
+.widgetLargeButton.Declined {
+	background-color: red;
+}
