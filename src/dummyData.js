@@ -28,3 +28,29 @@ export const userData = [
 		'Active User': 3490,
 	},
 ];
+
+export const userRows = [
+	{
+		id: 1,
+		userName: 'Jon Snow',
+		avatar: 'https://i.ibb.co/cXFnLLV/3.png',
+		email: 'adamdasovich@gmail.com',
+		status: 'active',
+		transaction: '$120.00'
+	},
+	{
+		id: 2,
+		userName: 'Jon Snow',
+		avatar: 'https://i.ibb.co/cXFnLLV/3.png',
+		email: 'adamdasovich@gmail.com',
+		status: 'active',
+		transaction: '$120.00'
+	},
+	{
+		id: 3,
+		userName: 'Jon Snow',
+		avatar: 'https://i.ibb.co/cXFnLLV/3.png',
+		email: 'adamdasovich@gmail.com',
+		status: 'active',
+		transaction: '$120.00'
+	}];
