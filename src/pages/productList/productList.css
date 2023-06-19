@@ -1,3 +1,28 @@
 .productList {
 	flex: 4;
 }
+
+.productListEdit {
+	border: none;
+	border-radius: 10px;
+	padding: 10px;
+	background-color: rgb(85, 137, 33);
+	color: white;
+	cursor: pointer;
+	margin-right: 20px;
+}
+
+.productListImage {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-right: 10px;
+}
+
+.productListItem {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 10px 0;
+}
