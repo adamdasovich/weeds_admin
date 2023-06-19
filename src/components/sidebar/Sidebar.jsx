@@ -37,14 +37,18 @@ const Sidebar = () => {
 			<div className='sidebarMenu'>
 				<h3 className='sidebarTitle'>Quick Menu</h3>
 				<ul className='sidebarList'>
-					<li className='sidebarListItem active'>
-						<PersonOutlineOutlinedIcon className='sidebarIcon' />
-						User
-					</li>
-					<li className='sidebarListItem'>
-						<StorefrontOutlinedIcon className='sidebarIcon' />
-						Products
-					</li>
+					<Link to='/users' className='link'>
+							<li className='sidebarListItem active'>
+								<PersonOutlineOutlinedIcon className='sidebarIcon' />
+								User
+							</li>
+					</Link>
+					<Link to='/products' className='link'>
+							<li className='sidebarListItem'>					
+								<StorefrontOutlinedIcon className='sidebarIcon' />
+								Products
+							</li>
+					</Link>
 					<li className='sidebarListItem'>
 						<PaidOutlinedIcon className='sidebarIcon' />
 						Transactions

@@ -54,3 +54,30 @@ export const userRows = [
 		status: 'active',
 		transaction: '$120.00'
 	}];
+
+
+export const productRows = [
+	{
+		id: 1,
+		name: 'CBD gummies',
+		img: 'https://i.ibb.co/cXFnLLV/3.png',
+		stock: 122,
+		status: 'active',
+		price: '$120.00'
+	},
+	{
+		id: 4,
+		name: 'Orange gummies',
+		img: 'https://i.ibb.co/cXFnLLV/3.png',
+		stock: 122,
+		status: 'active',
+		price: '$120.00'
+	},
+	{
+		id: 8,
+		name: 'THC gummies',
+		img: 'https://i.ibb.co/cXFnLLV/3.png',
+		stock: 122,
+		status: 'active',
+		price: '$120.00'
+	}];
