@@ -1,0 +1,147 @@
+.product {
+	flex: 4;
+	padding: 20px;
+}
+
+.productTitleContainer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.productAddButton{
+	width: 80px;
+	border: none;
+	padding: 5px;
+	background-color: teal;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.productTop {
+	display: flex;	
+}
+
+.productTopLeft, .productTopRight {
+	flex: 1;
+}
+
+.productTopRight {
+	padding: 20px;
+	margin: 30px;
+	-webkit-box-shadow: 5px 5px 15px 5px #000000; 
+	box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.productInfoImage {
+	width: 60px;
+	height: 60px;
+	border-radius: 10px;
+	object-fit: cover;
+}
+
+.productInfoTop {
+	display: flex;
+	align-items: center;
+}
+
+.productName{
+	font-weight: 600;
+	margin-left: 10px;
+}
+
+.productInfoBottom {
+	margin-top: 20px;
+}
+
+.productInfoItem {
+	width: 150px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.productInfoKey {
+	font-weight: 600;
+}
+
+.productInfoValue {
+	font-weight: 300;
+}
+
+.productBottom {
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	-webkit-box-shadow: 5px 5px 15px 5px #000000; 
+	box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.productForm {
+	display: flex;
+	justify-content: space-between;
+}
+
+.productFormLeft {
+	display: flex;
+	flex-direction: column;
+}
+
+.productFormLeft > label{
+	margin-bottom: 10px;
+	color: rgb(143, 143, 131);
+}
+
+.productFormLeft > input {
+	margin-bottom: 10px;
+	padding: 10px;
+	border: none;
+	border-bottom: 1px solid gray;
+}
+
+.productFormLeft > select {
+	margin-bottom: 10px;
+	padding: 10px;
+	border: none;
+	border-bottom: 1px solid gray;
+}
+
+.productFormRight {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+
+
+.productUploadImage {
+	width: 100px;
+	height: 100px;
+	border-radius: 5px;
+	object-fit: cover;
+	margin-right: 20px;
+}
+
+.productUploadButton {
+	border: none;
+	padding: 5px;
+	background-color: teal;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+.productUpdateButton {
+	width: 80px;
+	border: none;
+	padding: 5px;
+	background-color: teal;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+

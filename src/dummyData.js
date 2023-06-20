@@ -81,3 +81,22 @@ export const productRows = [
 		status: 'active',
 		price: '$120.00'
 	}];
+
+export const productData = [
+	{
+		name: 'Dell PC',
+		'Sales': 4000,
+	},
+	{
+		name: 'Apple PC',
+		'Sales': 3000,
+	},
+	{
+		name: 'HP PC',
+		'Sales': 2000,
+	},
+	{
+		name: 'Lenovo PC',
+		'Sales': 2780,
+	},
+];
