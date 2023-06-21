@@ -9,6 +9,7 @@ import NewUser from "./pages/newUser/NewUser";
 import ProductList from "./pages/productList/ProductList";
 import Product from './pages/product/Product'
 import NewProduct from "./pages/newProduct/NewProduct";
+import Login from "./pages/login/Login";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
 				<Sidebar />
 				<Routes>
 					<Route exact path="/" element={<Home />} />
+					<Route path="/login" element={<Login />} />
 					<Route path="/users" element={<UserList />} />
 					<Route path="/products" element={<ProductList />} />
 					<Route path="/newproduct" element={<NewProduct />} />
